@@ -1,0 +1,1 @@
+Animated background using @keyframes
