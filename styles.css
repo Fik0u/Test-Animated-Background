@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+}
+
+section{
+    height: 100vh;
+    background-image: url('https://images.pexels.com/photos/807598/pexels-photo-807598.jpeg?cs=srgb&dl=pexels-sohi-807598.jpg&fm=jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: backgd;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+h1{
+    background-color: rgba(31, 121, 64, 0.648);
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    padding: 10px;
+    cursor: pointer;
+}
+
+h1:hover{
+    background-color: rgba(114, 51, 15, 0.423);
+}
+
+
+
+@keyframes backgd {
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        filter: hue-rotate(360deg);
+    }
+    
+}
